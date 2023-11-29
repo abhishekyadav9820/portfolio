@@ -1,0 +1,21 @@
+.heading span {
+    color: rgb(115, 3, 167);
+}
+
+
+.education {
+    background: #e5ecfb;
+}
+
+
+.education .card-text{
+    color: #7303a7;
+    font-weight: 500;
+}
+.education img{
+    width: 100%;
+    height: 34vh;
+    
+}
+
+

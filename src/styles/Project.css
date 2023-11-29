@@ -1,0 +1,61 @@
+.work {
+    background: linear-gradient(to top, #5a6b73, #2d586c);
+}
+.work h2 {
+    color: #fff;
+}
+
+.work .heading span {
+    color: rgb(255, 230, 0);
+}
+
+
+.work .service-item {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.work .service-img {
+    height: 250px;
+    width: 100%;
+}
+
+.work .service-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.work .service-content{
+    background: #fff;
+    box-shadow: 0 0 40px 5px rgb(0 0 0/5%);
+    margin: -40px 20px 0;
+    padding: 35px 30px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.work .service-title {
+    font-family: var(---popinsFont);
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #111;
+}
+
+
+.work .service-text {
+    text-align: justify;
+    color: grey;
+    font-size: 14px;
+
+}
+
+.work .service-arrow {
+    margin-top: 10px;
+}
+.work .service-btn {
+    font-weight: 500;
+}
+
+.work .service-btn i {
+    margin-left: 5px;
+}

@@ -1,0 +1,32 @@
+.skills {
+    margin-top: 50px;
+    background: linear-gradient(to bottom, #1e6485, #43a3d0);
+  }
+  .skills h2 {
+    color: #fff;
+  }
+  .skills .heading span {
+    color: rgb(255, 230, 0);
+  }
+
+
+  .skills-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .skill {
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .skill i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .skill span {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }

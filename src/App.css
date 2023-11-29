@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap");
+:root {
+  ---robotFont: "Roboto", sans-serif;
+  ---popinsFont: "Poppins", sans-serif;
+  ---romanFont: "Luxurious Roman", cursive;
+  ---greatVibes: "Great Vibes", cursive;
+  ---primeColor: #edbb64;
+  ---secondColor: #586c89;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: var(---robotFont);
+}
+
+a {
+  text-decoration: none;
+}
+
+/*==========================================Custome Design=============================*/
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+section {
+  padding: 40px 0 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.titleSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 2rem;
+  color: rgb(32, 32, 32);
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.heading svg{
+  font-size: 2rem;
+}
+
+
+.titleSection h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: var(---popinsFont);
+  text-transform: capitalize;
+  color: var(---primeColor);
+  position: relative;
+  padding: 0 0 10px 0;
+}
+
+.titleSection p {
+  width: 50%;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #5c636c;
+}
+
+@media (max-width: 500px) {
+  .titleSection h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: var(---popinsFont);
+    text-transform: capitalize;
+    color: var(---primeColor);
+    position: relative;
+    padding: 0 0 10px 0;
+  }
+
+  .titleSection p {
+    width: unset;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #5c636c;
+  }
+}
+
+@media (max-width: 776px) {
+  .titleSection p {
+    width: 80%;
+  }
+}
