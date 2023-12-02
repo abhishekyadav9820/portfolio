@@ -29,7 +29,7 @@ const Project = () => {
                     dedication to pushing creative boundaries.
                   </p>
                   <div className="service-arrow">
-                    <a href="#" className="service-btn" alt="Portfolio">
+                    <a href="/" className="service-btn" alt="Portfolio">
                       View More
                       <i class="fa-solid fa-arrow-right"></i>
                     </a>

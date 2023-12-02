@@ -10,9 +10,6 @@ import Project from "../componets/Project";
 
 import "../styles/Home.css";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
 
 const Home = () => {
   return (

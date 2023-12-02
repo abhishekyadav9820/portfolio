@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Education.css";
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 const Education = () => {
