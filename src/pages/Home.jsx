@@ -6,6 +6,8 @@ import About from "../componets/About";
 import Skill from "../componets/Skills";
 import Education from "../componets/Education";
 import Project from "../componets/Project";
+import Experince from "../componets/Experince";
+import Contact from "../componets/Contact";
 
 
 import "../styles/Home.css";
@@ -50,6 +52,9 @@ const Home = () => {
       <Skill/>
       <Education/>
       <Project/>
+      <Experince/>
+      <Contact/>
+
    
  
     </div>
